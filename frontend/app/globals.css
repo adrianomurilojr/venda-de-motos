@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #ffffff;
+  color: #111318;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #e84335;
+  color: #ffffff;
+}
+
+.font-display {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  top: -12%;
+  bottom: auto;
+  height: 124%;
+  background-image: url("https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1800&q=90");
+  background-position: center 53%;
+  background-size: cover;
+  opacity: 0.55;
+}
+
+.form-input {
+  width: 100%;
+  min-height: 46px;
+  border: 1px solid #e7e5e4;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 11px 13px;
+  color: #292524;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.form-input::placeholder {
+  color: #a8a29e;
+}
+
+.form-input:focus {
+  border-color: #e84335;
+  box-shadow: 0 0 0 3px rgb(232 67 53 / 10%);
+}
+
+.form-input:invalid:not(:placeholder-shown):not(:focus) {
+  border-color: #fca5a5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
