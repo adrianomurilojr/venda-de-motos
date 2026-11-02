@@ -340,13 +340,13 @@ export default function HomePage() {
           <a
             className="flex items-center gap-2.5"
             href="#"
-            aria-label="Giro na Moto, início"
+            aria-label="Encontre sua moto aqui, início"
           >
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-accent text-white">
               <Icon name="bike" className="h-6 w-6" />
             </span>
             <span className="font-display text-[22px] font-extrabold tracking-tight text-white">
-              giro na moto<span className="text-accent">.</span>
+              encontre sua moto aqui<span className="text-accent">.</span>
             </span>
           </a>
           <nav
@@ -809,11 +809,11 @@ export default function HomePage() {
           <a
             className="flex items-center gap-2"
             href="#"
-            aria-label="Giro na Moto, início"
+            aria-label="Encontre sua moto aqui, início"
           >
             <Icon name="bike" className="h-5 w-5 text-accent" />
             <span className="font-display text-lg font-extrabold">
-              giro na moto<span className="text-accent">.</span>
+              encontre sua moto aqui<span className="text-accent">.</span>
             </span>
           </a>
           <p className="text-xs text-white/45">

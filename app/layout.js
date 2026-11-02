@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Giro na Moto — encontre sua próxima moto",
+  title: "Encontre sua moto aqui — marketplace de motos",
   description:
     "Um lugar simples para encontrar sua próxima moto ou anunciar a que está na garagem.",
 };
